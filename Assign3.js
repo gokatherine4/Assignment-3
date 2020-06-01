@@ -11,10 +11,12 @@ document.getElementsByClassName("second");
 document. querySelector("ol.third");
 
 //Giving the section with an id of container the text "Hello!"
-
+var foundDiv = document.querySelector('#container');
+foundDiv.innerText = "Hello";
 
 //Adding the class main to the div with a class of footer
-
+var footer = document.querySelector(".footer");
+footer.classList.add("main");
 
 //Removing the class main on the div with a class of footer
 
