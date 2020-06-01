@@ -8,7 +8,7 @@ document.querySelector("container");
 document.getElementsByClassName("second");
 
 //Selecting a list item with a class of third, but only the list item inside of the ol tag
-
+document. querySelector("ol.third");
 
 //Giving the section with an id of container the text "Hello!"
 
