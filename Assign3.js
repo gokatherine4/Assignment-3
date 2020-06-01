@@ -34,3 +34,5 @@ footer.classList.add("main");
 
 
 //Removing the div with a class of footer
+var footer = document.querySelector(".footer");
+footer.remove();
